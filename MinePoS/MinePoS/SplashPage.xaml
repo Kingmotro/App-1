@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MinePoS"
+             x:Class="MinePoS.SplashPage"
+             BackgroundColor="#252830">
+
+    <Label Text="Welcome to Xamarin.Forms!" 
+           VerticalOptions="Center" 
+           HorizontalOptions="Center" />
+
+    <StackLayout
+        BackgroundColor="#1e2127"
+        HeightRequest="100"
+        VerticalOptions="Start"
+        HorizontalOptions="Fill"
+        >
+        <Image Source="logo.png" 
+           Aspect="AspectFit"
+           x:Name="logo"
+           HeightRequest="50"
+           VerticalOptions="Center"
+           HorizontalOptions="Center"
+           Margin="0,25"
+        />
+    </StackLayout>
+   
+
+</ContentPage>
